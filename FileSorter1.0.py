@@ -62,6 +62,8 @@ class MyHandler(FileSystemEventHandler):
                         first = False
 
 
+f = open("folder_info.txt", 'a')
+f.close()
 
 file_info = open("folder_info.txt", "r", encoding="UTF8")
 
